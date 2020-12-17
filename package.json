@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d public",
+    "sass": "node-sass -w scss/ -o public/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carina-lxx/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carina-lxx/portfolio/issues"
+  },
+  "homepage": "https://github.com/carina-lxx/portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
